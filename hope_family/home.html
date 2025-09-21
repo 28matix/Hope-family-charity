@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>The Hope Family Charity </title>
+            <link rel="stylesheet" href="./css/bootstrap.min.css">
+            <script src="./js/bootstrap.bundle.min.js"></script>
+            <style>
+                .nav-links-horizontal {
+                    display: flex;
+                    gap: 15px;
+                    align-items: center;
+                    padding-left: 0;
+                    margin-top: 10px;
+                }
+                .nav-link-custom {
+                    background: none !important;
+                    color: #fff !important;
+                    border: none;
+                    font-size: 0.95em;
+                    font-weight: 500;
+                    text-decoration: none;
+                    padding: 5px 10px;
+                    transition: color 0.2s;
+                }
+                .nav-link-custom:hover {
+                    color: #ffd700 !important;
+                    text-decoration: underline;
+                }
+                @media (max-width: 600px) {
+                    .container.d-flex.align-items-center {
+                        flex-direction: column !important;
+                        align-items: center !important;
+                        height: auto !important;
+                    }
+                    .container.d-flex.align-items-center img {
+                        margin-bottom: 10px !important;
+                        margin-right: 0 !important;
+                    }
+                    .container.d-flex.align-items-center span {
+                        margin-left: 0 !important;
+                        margin-bottom: 0 !important;
+                        text-align: center;
+                    }
+                    .nav-links-horizontal {
+                        flex-wrap: wrap;
+                        justify-content: center !important;
+                        gap: 8px;
+                    }
+                }
+            </style>
+ </head>
+            <body>
+        <div class="container-fluid p-0">
+        <div class="row">
+            <div class="col-sm-4 bg-dark text-warning"> Email-----------</div> 
+            <div class="col-sm-4 bg-dark text-warning"> Phone.-----------</div>
+            <div class="col bg-warning p-0 text-dark"> <strong>Donate Now</strong></div>
+            <div class="col-sm-1 bg-dark"></div>
+        </div>
+        </div>
+        <div class="container-fluid bg-warning text-white p-0 text-center">
+            <div class="container d-flex align-items-center" style="height:10px;">
+                <img src="./image/picture3.jpg" alt="Logo" style="height: 120px; width: 140px; margin-right: 10px; margin-bottom: -120px;">
+                <span style="font-size: 300%; color: #111; font-weight: bold; margin-bottom: -80px; margin-left: 20%;">The Hope Family Charity</span>
+            </div>
+            <div style="position: relative; min-height: 120px;">
+                <div class="card-body" style="position: absolute; bottom: -15px; left: 0; width: 100%;">
+                    <div class="nav-links-horizontal" style="justify-content: center; font-size:17px;">
+                        <a href="#" class="nav-link-custom">Home</a>
+                        <a href="about.html" class="nav-link-custom">About Us</a>
+                        <a href="#" class="nav-link-custom">Our Work</a>
+                        <a href="#" class="nav-link-custom">Get Involved</a>
+                        <a href="#" class="nav-link-custom">News & Events</a>
+                        <a href="#" class="nav-link-custom">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="container-fluid p-0 d-flex align-items-center" style="position:relative; min-height:300px;">
+            <div class="p-4 text-warning" style="z-index:2; position:absolute; left:0;">
+                <h2 style="font-size: 2.4em; font-weight: bold;">spread smiles and hope to others</h2>
+            </div>
+            <img class="img-fluid w-100" src="./image/pc4.jpg" alt="children image" style="display:block; height:50%; max-height:300px; object-fit:cover; width:100%;">
+        </div>
+      </div>
+    </body>
+</html>
